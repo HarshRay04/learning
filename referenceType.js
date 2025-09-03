@@ -31,3 +31,21 @@ p.name = "Gaurav";
 console.log(p); //gaurav
 
 console.log(q); //gaurav
+
+//array and functions both are objects only.
+
+let dost = ['Harsh', 'Tejanshu', 'Gaurav', true, 0, null];
+//note : arrays are objects and we can store multiple types of data in it.
+console.log(dost[0]);
+console.log(dost[1]);
+console.log(dost[2]);
+console.log(dost[3]);
+console.log(dost[4]);
+console.log(dost[5]);
+console.log(typeof (dost[0]));
+console.log(typeof (dost[3]));
+console.log(typeof (dost[4]));
+console.log(typeof (dost[5]));
+console.log(typeof (dost));
+//to print whole array at a single time.
+console.log(dost);

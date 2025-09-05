@@ -40,3 +40,19 @@ function add(a, b) {
 }
 console.log(add);
 console.log(2, 3);
+
+
+// in js we can also asign function to variable.
+
+let sum = function (a, b) {
+    return a + b;
+}
+
+console.log(sum);
+console.log(sum(2, 3));
+
+// arrow functions:
+
+let sum1 = (a, b) => a + b;
+
+console.log(sum1(3, 4));
